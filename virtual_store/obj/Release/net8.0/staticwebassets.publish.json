@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9EdSMwpwYMmnCbNdJsFRogLYYTKnLbODWGTr4SfprRE=",
+  "Source": "virtual_store",
+  "BasePath": "_content/virtual_store",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

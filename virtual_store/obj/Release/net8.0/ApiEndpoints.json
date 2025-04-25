@@ -1,0 +1,671 @@
+[
+  {
+    "ContainingType": "virtual_store.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "virtual_store.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "Active_InActive_Product",
+    "RelativePath": "api/Stores/Active_InActive_Product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "Add_Store",
+    "RelativePath": "api/Stores/Add_Store",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "store",
+        "Type": "virtual_store.settingclasses.Add_Store",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "Add_Product",
+    "RelativePath": "api/Stores/AddProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "virtual_store.settingclasses.Product_Add",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "fetch_category",
+    "RelativePath": "api/Stores/Category",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "AddCategory",
+    "RelativePath": "api/Stores/Category_add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryDto",
+        "Type": "System.Collections.Generic.List\u00601[[virtual_store.Models.Category, virtual_store, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "Change_Password",
+    "RelativePath": "api/Stores/Change_Password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "virtual_store.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "Ordered",
+    "RelativePath": "api/Stores/checkout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "apiDataModel",
+        "Type": "virtual_store.settingclasses.ApiDataModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "checkstore",
+    "RelativePath": "api/Stores/checkstore",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storelink",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "Customers",
+    "RelativePath": "api/Stores/customers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/Stores/delete_category",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "Delete_Order_By_Id",
+    "RelativePath": "api/Stores/Delete_Order_By_Id",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "store_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "delete_product",
+    "RelativePath": "api/Stores/delete_product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "Delete_Store_By_Id",
+    "RelativePath": "api/Stores/Delete_Store_By_Id",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "domain_checker",
+    "RelativePath": "api/Stores/domain_check",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "domain_name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "Edit_Item",
+    "RelativePath": "api/Stores/Edit_Item",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "virtual_store.settingclasses.Product_Edit",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "Edit_Store",
+    "RelativePath": "api/Stores/Edit_Store",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "store_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "fetch_arias",
+    "RelativePath": "api/Stores/fetch_arias",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "store_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "fetch_orders",
+    "RelativePath": "api/Stores/fetch_orders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "store_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "order_status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "fetch_pickup",
+    "RelativePath": "api/Stores/fetch_pickup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "store_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "fetch_price",
+    "RelativePath": "api/Stores/fetch_price",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "store_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "city",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "method",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "kg",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "Feth_product",
+    "RelativePath": "api/Stores/fetch_product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "Feth_product_Admin",
+    "RelativePath": "api/Stores/fetch_product_Admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "fetch_retail_price",
+    "RelativePath": "api/Stores/fetch_retail_price",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "store_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "aria_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "get_categories",
+    "RelativePath": "api/Stores/get_categories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "Method",
+    "RelativePath": "api/Stores/Method",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "fetch_product_for_addson",
+    "RelativePath": "api/Stores/Product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "SendEmail",
+    "RelativePath": "api/Stores/sendemail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recipientEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "subject",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ownername",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "summary",
+    "RelativePath": "api/Stores/summary_dashboard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "store_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "savs",
+    "RelativePath": "api/Stores/test",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "update_category_by_id",
+    "RelativePath": "api/Stores/update_category_by_id",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "catname",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "update_category_sequence",
+    "RelativePath": "api/Stores/update_category_sequence",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "new_position",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "category_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "update_product_sequence",
+    "RelativePath": "api/Stores/update_product_sequence",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "storeid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "new_position",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "category_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "update_status_by_mid",
+    "RelativePath": "api/Stores/update_status_by_mid",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "store_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "mid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "new_status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "Update_Store",
+    "RelativePath": "api/Stores/Update_Store",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "edit_Store",
+        "Type": "virtual_store.settingclasses.Edit_Store",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "UploadFiles",
+    "RelativePath": "api/Stores/upload_files",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "upload_Files",
+        "Type": "virtual_store.settingclasses.Upload_Files",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "virtual_store.Controllers.StoresController",
+    "Method": "weight_range",
+    "RelativePath": "api/Stores/weight_range",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
